@@ -1,0 +1,7 @@
+{
+  "tables":[
+    {"available":true,"booked":false,"index":"1"},
+    {"available":false,"booked":true,"index":"2"},
+    {"available":true,"booked":true,"index":"3"}
+  ]
+}

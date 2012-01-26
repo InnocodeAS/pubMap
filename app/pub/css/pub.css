@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.w960 {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#header {
+  background: #ffebcd;
+  width: 100%;
+}
+#header span{
+  margin: 0 20px;
+}
+span#available{
+  margin: 0;
+}
+
+#main{
+  border-radius: 10px;
+  border:2px solid black;
+  background: #ffebcd;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.table{
+  background-image: url("../../images/tableMiddle.png");
+  float: left;
+  height:148px;
+  width: 149px;
+  cursor: pointer;
+  margin: 30px;
+}
+
+#floors{
+  float: right;
+}
+
+.table.not-available{
+  outline:10px solid red;
+}
+
+.table.booked:before{
+  display: block;
+  content:"";
+  background-image: url("../../images/shield.png");
+  width: 94px;
+  height: 94px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
